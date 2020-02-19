@@ -9,8 +9,9 @@ public class MatrizDiagonalPpal
 	   Scanner sc = new Scanner(System.in);
        
 	   //--Leemos el Tamano de la Matriz--//
-	   System.out.println("Entre el Tamano de la Matriz :");
+	   System.out.print("Entre el Tamano de la Matriz :");
 	   int n = sc.nextInt();
+	   System.out.println("---------------------------"); 
 	   
 	   //--Define la matriz--//
 	   int[][] mat = new int[n][n];
